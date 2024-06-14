@@ -1,0 +1,56 @@
+{
+  "user": [
+    {
+      "id": 2
+    },
+    {
+      "name": "thành đô vũ",
+      "email": "thanhdo9xi@gmail.com",
+      "password": "qewerytu",
+      "confirmPassword": "qewerytu",
+      "id": 3
+    },
+    {
+      "name": "anumailpusk",
+      "email": "admin@gmail.com",
+      "password": "aaaaaaaa",
+      "confirmPassword": "aaaaaaaa",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 3,
+      "name": "vu thanh do",
+      "price": 11111,
+      "description": "xxxxxxxxxx",
+      "madein": "trung quoc",
+      "trademart": "xxxxxxx"
+    },
+    {
+      "id": 4,
+      "name": "vu thanh do",
+      "price": 11111,
+      "description": "xxxxxxxxxx",
+      "madein": "trung quoc",
+      "trademart": "xxxxxxx"
+    },
+    {
+      "trademart": "dwqdwqdw",
+      "madein": "viet nam",
+      "description": "brtbrtbrtbrtb",
+      "price": 8888,
+      "name": "thành đô vũ",
+      "id": 5
+    },
+    {
+      "trademart": "dwqdwqdw",
+      "madein": "nhat ban",
+      "description": "hahahahahahahahaha",
+      "price": 44444,
+      "name": "admin1234",
+      "id": 6
+    }
+  ]
+}
+

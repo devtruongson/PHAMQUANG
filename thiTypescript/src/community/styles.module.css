@@ -1,0 +1,424 @@
+.container {
+  display    : flex;
+  padding-top: 60px;
+  width      : 1170px;
+  margin     : auto;
+}
+
+.banner {
+  margin: auto;
+  width : 720px;
+
+  padding: 0px 16px;
+}
+
+.banner-img {
+  margin          : auto;
+  width           : 100%;
+  object-fit      : cover;
+  /* height       : 137px; */
+  max-height      : 357px;
+  border-radius   : 10px;
+  border          : 1px solid #ccc;
+}
+
+.latest-news {
+  margin-top: 20px;
+  border    : 1px solid #dddfe2;
+}
+
+.latest-news h3 {
+  padding: 0px 20px;
+}
+
+.latest-news-user img {
+  border-radius: 25px;
+  width        : 40px;
+  height       : 40px;
+  border       : 1px solid #dddfe2;
+  box-shadow   : 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.latest-news-user {
+  margin-top: 15px;
+  padding   : 0px 20px;
+  gap       : 12px;
+  display   : flex;
+  color     : #4f4f4f;
+}
+
+.name-user {
+  font-size: 14px;
+}
+
+.post-information {
+  font-size    : 12px;
+  padding-right: 10px;
+}
+
+.latest-news-user-member {
+  padding-top: 8px;
+}
+
+.like-comment-row img {
+  width : 20px;
+  height: 20px;
+}
+
+.like-comment {
+  gap          : 20px;
+  display      : flex;
+  padding      : 9px 12px;
+  height       : 40px;
+  height       : 40px;
+  border-top   : 1px solid #dddfe2;
+  border-bottom: 1px solid #dddfe2;
+}
+
+.like-comment-row {
+  font-size  : 13px;
+  color      : #989ca2;
+  display    : flex;
+  gap        : 8px;
+  align-items: center;
+}
+
+.status-real {
+  line-height: 24px;
+  padding    : 15px 20px;
+  font-size  : 14px;
+  padding-top: 6px;
+  color      : #333;
+
+}
+
+/* trên là banner giữa  */
+.box-list-post input {
+  height: 40px;
+  width : 100%;
+}
+
+.box {
+  color : #222;
+  border: 1px solid #dddfe2;
+}
+
+.box-post {
+  font-size: 13px;
+  padding  : 16px 10px 12px;
+}
+
+.box-title {
+  font-size    : 15px;
+  border-bottom: 1px solid #dddfe2;
+  padding      : 16px 16px 16px 16px;
+}
+
+.box-post-row img {
+  width : 20px;
+  height: 20px;
+}
+
+.box-post-row {
+  gap    : 10px;
+  display: flex;
+}
+
+.box-category {
+  padding   : 10px 0px;
+  color     : #222;
+  margin-top: 13px;
+  border    : 1px solid #dddfe2;
+}
+
+.box-category-row img {
+  width : 20px;
+  height: 20px;
+}
+
+.box-category-row {
+  font-size: 12px;
+  padding  : 16px 10px 0px;
+  gap      : 10px;
+  display  : flex;
+}
+
+.custom-link {
+  color: #222;
+}
+
+.custom-link:hover {
+  color          : #333;
+  text-decoration: none;
+}
+
+/* trên là leff */
+
+/* đây là banner-right */
+.banner-right {
+  width: 238px;
+}
+
+.box-2 {
+  color : #222;
+  border: 1px solid #dddfe2;
+}
+
+.box-post-2 {
+  line-height: 40px;
+  font-size  : 13px;
+  padding    : 16px 10px 12px;
+}
+
+.box-title-2 {
+  background-color: #e3f0ff;
+  font-size       : 15px;
+  border-bottom   : 1px solid #dddfe2;
+  padding         : 16px 16px 16px 16px;
+}
+
+.box-post-row-2 {
+  gap    : 10px;
+  display: flex;
+}
+
+.charts {
+  margin-top: 20px;
+  width     : 240px;
+
+  border: 1px solid #dddfe2;
+}
+
+/* phần Câu hỏi được quan tâm */
+
+.question {
+  background-color: #e3f0ff;
+  font-size       : 15px;
+  border-bottom   : 1px solid #dddfe2;
+  padding         : 16px 16px 16px 16px;
+}
+
+.charts-time {
+  color           : #4f4f4f;
+  background-color: #fff;
+  font-size       : 14px;
+  border-bottom   : 1px solid #dddfe2;
+  padding         : 0 42px;
+  line-height     : 50px;
+  text-align      : center;
+  display         : flex;
+  justify-content : space-between;
+}
+
+/* dưới này là phần user xếp hàng */
+
+.charts-user {
+  padding: 16px;
+}
+
+.charts-user-ratings {
+  font-size      : 14px;
+  justify-content: space-between;
+  display        : flex;
+  padding        : 15px 10px;
+}
+
+.charts-user-ratings span {
+  padding-top: 35px;
+}
+
+.ratings-img-user {
+  position: absolute;
+
+  width        : 44px;
+  height       : 44px;
+  border-radius: 30px;
+}
+
+.img-ic-top {
+  right   : -24px;
+  bottom  : -28px;
+  position: relative;
+  width   : 20px;
+  height  : 26px;
+}
+
+.img-ic-one {
+  right   : -33px;
+  bottom  : -38px;
+  position: relative;
+  width   : 20px;
+  height  : 26px;
+}
+
+.ratings {
+  display       : flex;
+  flex-direction: column;
+}
+
+.ratings-img-user-one {
+  width        : 56px;
+  height       : 56px;
+  border-radius: 30px;
+  position     : absolute;
+}
+
+.ratings-one {
+  display       : flex;
+  flex-direction: column;
+}
+
+.charts-user-ratings img {
+  border: 2px solid #f3a737;
+}
+
+.vertical-user img {
+  width        : 40px;
+  height       : 40px;
+  border-radius: 30px;
+}
+
+.vertical-user {
+  gap        : 15px;
+  display    : flex;
+  padding-top: 10px;
+}
+
+.info-information {
+  font-size: 14px;
+  color    : #4f4f4f;
+}
+
+.comment {
+  line-height: 24px;
+  padding-top: 5px;
+  font-size  : 14px;
+  color      : #222;
+}
+
+.tym-comment-fake {
+  gap: 27px;
+
+  display: flex;
+}
+
+.latest-news-user-2 img {
+  border-radius: 25px;
+  width        : 40px;
+  height       : 40px;
+}
+
+.like-comment-row-1 img {
+  width : 20px;
+  height: 20px;
+}
+
+.like-comment-row-1 {
+  gap    : 8px;
+  display: flex;
+}
+
+.img-comment {
+  width        : 40px;
+  height       : 40px;
+  border-radius: 30px;
+  border       : 1px solid #dddfe2;
+  box-shadow   : 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.comment-inp {
+  border    : 0px solid;
+  min-height: 150px;
+  gap       : 10px;
+  display   : flex;
+}
+
+.bbutton-input {
+  width: 100%;
+}
+
+.container-comment {
+  display: flex;
+  gap    : 12px;
+  margin : 20px 15px 20px 15px;
+}
+
+
+.hghghgh {
+  height: 150px;
+}
+
+.fefefefe {
+  padding         : 8px 0px;
+  border          : 1px solid #ccc;
+  background      : #FFFFFF;
+  margin-top      : 40px;
+  padding-left    : 80%;
+  border-top-color: transparent;
+}
+
+
+.fefefefe button {
+  color           : #fff;
+  background-color: #4e81ed;
+  border          : none;
+  border-radius   : 4px;
+  padding         : 5px 22px;
+}
+
+
+.thongbao {
+  width     : 20px;
+  height    : 20px;
+  margin-top: 15px;
+  padding   : 0px 50px;
+}
+
+.notification {
+  background-color: #fff;
+  box-shadow      : 0 0 7px #fff;
+}
+
+.img-thongbao {
+  width : 20px;
+  height: 20px;
+}
+
+.hghghgh {
+  background-color: #FFF;
+
+}
+
+.bbutton-input-ok {
+
+  text-align: right;
+  border    : 1px solid #cdcdcd;
+}
+
+.bbutton-input-ok button {
+  border          : 1px solid #4e81ed;
+  background-color: #4e81ed;
+  color           : #ffffff;
+  margin          : 10px 14px 8px 17px;
+  text-align      : right;
+  border-radius   : 4px;
+}
+
+.Statussss {
+
+  width   : 100%;
+  position: absolute;
+}
+
+.hhhhhhghh {
+  position: relative;
+}
+
+.okok {
+  border-radius: 50px;
+
+}
+
+.hsfgns {
+  color: #4e81ed;
+}

@@ -1,0 +1,45 @@
+{
+    "name": "sp23",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon ./src/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "dependencies": {
+        "@iamtraction/google-translate": "^2.0.1",
+        "axios": "^1.6.8",
+        "bcryptjs": "^2.4.3",
+        "concurrently": "^7.6.0",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "datamuse": "^1.0.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "http": "^0.0.1-security",
+        "joi": "^17.9.1",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.0.3",
+        "mongoose-paginate-v2": "^1.7.1",
+        "nodemon": "^3.1.0",
+        "openai": "^4.47.1",
+        "puppeteer": "^22.11.0",
+        "socket.io": "^4.7.5",
+        "synonyms": "^1.0.1",
+        "vite": "^4.1.4",
+        "vite-plugin-node": "^3.0.2",
+        "wordnet-db": "^3.1.14"
+    }
+}
